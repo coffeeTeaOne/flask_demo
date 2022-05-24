@@ -10,7 +10,7 @@ app.config['JSON_AS_ASCII'] = False
 @app.route('/')
 @app.route('/welcome')  # 路由系统生成视图对应url， 1. decorator=app.route() 2. decorator(first_flask)
 def first_flask():  # 视图函数
-    return 'Hello, world!，VVVVVVVV'
+    return 'Hello, world!，asdfasdf'
 
 
 @app.route('/getInfo', methods=['GET', 'POST'])
